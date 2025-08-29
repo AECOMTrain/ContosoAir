@@ -8,8 +8,8 @@ trigger:
 
 resources:
  pipelines:
-  - pipeline: azure-pipelines # identifier for the resource used in pipeline resource variables
-    source: Student1-53767346.ContosoAir # name of the pipeline that produces the artifact
+  - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
+    source: AECOMTrain.ContosoAir # name of the pipeline that produces the artifact
     trigger:
      branches:
       include:
